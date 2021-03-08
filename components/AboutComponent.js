@@ -20,10 +20,6 @@ class About extends Component {
     render() {
 
         const renderPartner = ({item}) => {
-            const possiableImages = {
-                "boostrap": require("boostrap")
-
-            }
             return (
                 <ListItem
                     title={item.name}
