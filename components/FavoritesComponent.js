@@ -38,7 +38,7 @@ class Favorites extends Component {
                             style={styles.deleteTouchable}
                             onPress={() => Alert.alert(
                                 'Delete Favorite?',
-                                'Are you sure you wisth to delete ' + item.name + ' from your list of favorites?',
+                                'Are you sure you wish to delete ' + item.name + ' from your list of favorites?',
                                 [
                                     {
                                         text: 'Cancel',
