@@ -7,7 +7,6 @@ import Loading from './components/LoadingComponent';
 
 const {persistor, store} = ConfigureStore();
 
-
 export default function App() {
   return (
     <Provider store={store}>
